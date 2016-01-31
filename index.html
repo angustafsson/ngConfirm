@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="confirm">
+<head>
+<meta charset="UTF-8">
+<title>Angular Modal Confirm Directive</title>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+</head>
+<body ng-controller="homectrl">
+
+<div class="container">
+<h1><a ng-confirm-message="Close dialog and loose all changes?" ng-confirm="ok()">Close</a></h1>
+</div>
+
+<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+
+<script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+<script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
